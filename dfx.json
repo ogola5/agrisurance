@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "agrisurance": {
+            "type": "custom",
+            "build": "npx azle agrisurance",
+            "root": "src",
+            "ts": "src/index.ts",
+            "candid": "src/index.did",
+            "wasm": ".azle/agrisurance/agrisurance.wasm.gz"
+        }
+    }
+}
+
